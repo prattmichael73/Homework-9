@@ -6,6 +6,15 @@ function generateMarkdown(data) {
    # description 
   ${data.description}
 
+  # table of contents
+  ## installation
+  ## usage
+  ## contributing
+  ## tests
+  ## license
+  ## badge
+  ## github link
+
   # installation
   ${data.installation}
 
@@ -17,12 +26,16 @@ function generateMarkdown(data) {
 
   #Tests
   ${data.tests}
-`;
+
+  #License
+  ${data.license}
+
+  #badge
+  ${data.badge}
+
+  #github
+  ${data.github}
+`
 }
 
-module.exports = generateMarkdown;
-
-
-// set up link in markdown. set reference of link to #(section name)
-
-//github link last
+module.exports = generateMarkdown

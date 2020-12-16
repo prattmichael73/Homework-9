@@ -37,6 +37,21 @@ const questions = [
         type: "input",
         name: "Tests",
         message: "Does the app function properly when tested?"
+    },
+    {
+        type: "input",
+        name: "license",
+        message: "What license does this app use?"
+    },
+    {
+        type: "input",
+        name: "badge",
+        message: "Does this app have a badge?"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "Is there a link to the app's repo on github?"
     }
 ];
 
